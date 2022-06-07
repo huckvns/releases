@@ -18,7 +18,9 @@ Darwin)
 	x86_64)
 		LINK="https://github.com/huckvns/releases/releases/download/v1.0.0/huckvns-macos-x64"
 		;;
-	*) ;;
+	*) 
+		LINK="https://github.com/huckvns/releases/releases/download/v1.0.0/huckvns-macos-x64"
+		;;
 	esac
 	open ~/HuckVns
 	;;
